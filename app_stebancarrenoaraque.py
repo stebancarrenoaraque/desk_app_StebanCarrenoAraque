@@ -93,7 +93,7 @@ titulo.place(x=110, y=50)
 # --------------------------------------------------
 
 # 1. Lugar y fecha de nacimiento
-bt_nacimiento = Button(frame_entrada, text="Lugar y Fecha Nacimiento 🎂", command=lambda: mostrar_info("Nacimiento", "Lugar: San Gil, Santander\nFecha: 19/06/2011","img/sangil.png"))
+bt_nacimiento = Button(frame_entrada, text="Lugar y Fecha Nacimiento 🎂", command=lambda: mostrar_info("Nacimiento", "Lugar: San Gil, Santander,\n\nFecha: 19/06/2011","img/sangil.png"))
 bt_nacimiento.config(bg=COLOR_BOTON_BG, fg=COLOR_BOTON_FG, font=("Helvetica", 10))
 bt_nacimiento.place(x=30, y=120, width=200, height=30)
 
@@ -104,47 +104,47 @@ lb_cumple.place(x=30,y=30)
 
 
 # 2. Datos médicos
-bt_medicos = Button(frame_entrada, text="Datos Médicos Relevantes 🩺", command=lambda: mostrar_info("Datos Médicos", "tipo de sangre: O+\nAlergias: Ninguna\nEstado: buena salud","img/datosmedicos.png"))
+bt_medicos = Button(frame_entrada, text="Datos Médicos Relevantes 🩺", command=lambda: mostrar_info("Datos Médicos", "tipo de sangre: O+\n\nAlergias: Ninguna\n\nEstado: buena salud","img/datosmedicos.png"))
 bt_medicos.config(bg=COLOR_BOTON_BG, fg=COLOR_BOTON_FG, font=("Helvetica", 10))
 bt_medicos.place(x=250, y=120, width=200, height=30)
 
 # 3. Información familiar
-bt_familiar = Button(frame_entrada, text="Información Familiar", command=lambda: mostrar_info("Familia", "Residencia: San Gil\nIntegrantes: papa, mama,\nmi hermano y mi hermana","img/sangil1.png"))
+bt_familiar = Button(frame_entrada, text="Información Familiar 👪", command=lambda: mostrar_info("Familia", "Residencia: San Gil\n\nIntegrantes: papa, mama,\n\nmi hermano y mi hermana","img/sangil1.png"))
 bt_familiar.config(bg=COLOR_BOTON_BG, fg=COLOR_BOTON_FG, font=("Helvetica", 10))
 bt_familiar.place(x=30, y=170, width=200, height=30)
 
 # 4. Proceso educativo
-bt_educacion = Button(frame_entrada, text="Proceso Educativo", command=lambda: mostrar_info("Educación", "Colegio San José de Guanentá\nGrado: Decimo (10°)\nSan Gil, Colombia","img/csjg.png"))
+bt_educacion = Button(frame_entrada, text="Proceso Educativo 🏫", command=lambda: mostrar_info("Educación", "Colegio San José de Guanentá\n\nGrado: Decimo (10°)\n\nSan Gil, Colombia","img/csjg.png"))
 bt_educacion.config(bg=COLOR_BOTON_BG, fg=COLOR_BOTON_FG, font=("Helvetica", 10))
 bt_educacion.place(x=250, y=170, width=200, height=30)
 
 # 5. Información de amigos
-bt_amigos = Button(frame_entrada, text="Información de Amigos", command=lambda: mostrar_info("Amigos", "Compañeros del colegio Guanentá y amigos del barrio","img/amigos.png"))
+bt_amigos = Button(frame_entrada, text="Información de Amigos 🤝", command=lambda: mostrar_info("Amigos", "Compañeros del colegio Guanentá y amigos del barrio","img/amigos.png"))
 bt_amigos.config(bg=COLOR_BOTON_BG, fg=COLOR_BOTON_FG, font=("Helvetica", 10))
 bt_amigos.place(x=30, y=220, width=200, height=30)
 
 # 6. Hobbies y tiempo libre
-bt_hobbies = Button(frame_entrada, text="Hobbies / Tiempo Libre", command=lambda: mostrar_info("Hobbies", "Estar con la familia\nVer documentales o películas de interés.\nTomar fotos con mi celular\ncocinar","img/pasatiempos.png"))
+bt_hobbies = Button(frame_entrada, text="Hobbies / Tiempo Libre 😎", command=lambda: mostrar_info("Hobbies", "Estar con la familia\n\nVer documentales o películas de interés.\n\nTomar fotos con mi celular\ncocinar","img/pasatiempos.png"))
 bt_hobbies.config(bg=COLOR_BOTON_BG, fg=COLOR_BOTON_FG, font=("Helvetica", 10))
 bt_hobbies.place(x=250, y=220, width=200, height=30)
 
 # 7. Horario semanal 24/7
-bt_horario = Button(frame_entrada, text="Horario Semanal 24/7", command=lambda: mostrar_info("Horario", "Lunes a Viernes: Colegio por las tardes y aveces en las mañanas y Fines de semana: Descanso","img/horario.png"))
+bt_horario = Button(frame_entrada, text="Horario Semanal 24/7 🗓️", command=lambda: mostrar_info("Horario", "Lunes a Viernes: Colegio por las tardes y aveces en las mañanas y Fines de semana: Descanso","img/horario.png"))
 bt_horario.config(bg=COLOR_BOTON_BG, fg=COLOR_BOTON_FG, font=("Helvetica", 10))
 bt_horario.place(x=30, y=270, width=200, height=30)
 
 # 8. Plan preparación ICFES 2027
-bt_icfes = Button(frame_entrada, text="Plan ICFES 2027", command=lambda: mostrar_info("ICFES 2027", "Refuerzo en lectura crítica","img/icfes.png"))
+bt_icfes = Button(frame_entrada, text="Plan ICFES 2027 💯", command=lambda: mostrar_info("ICFES 2027", "Refuerzo en lectura crítica","img/icfes.png"))
 bt_icfes.config(bg=COLOR_BOTON_BG, fg=COLOR_BOTON_FG, font=("Helvetica", 10))
 bt_icfes.place(x=250, y=270, width=200, height=30)
 
 # 9. Proyecto de vida 2031
-bt_proyecto = Button(frame_entrada, text="Proyecto de Vida 2031", command=lambda: mostrar_info("Proyecto 2031", "Graduarme de la universidad, y apoyar a mi familia","img/proyectodevida (1).png"))
+bt_proyecto = Button(frame_entrada, text="Proyecto de Vida 2031 🚀", command=lambda: mostrar_info("Proyecto 2031", "Graduarme de la universidad, y apoyar a mi familia","img/proyectodevida (1).png"))
 bt_proyecto.config(bg=COLOR_BOTON_BG, fg=COLOR_BOTON_FG, font=("Helvetica", 10))
 bt_proyecto.place(x=30, y=320, width=200, height=30)
 
 # 10. Tema libre
-bt_libre = Button(frame_entrada, text="Tema Libre: jugar", command=lambda: mostrar_info("Tema Libre", "jugar mi juego favorito","img/jugar1.png"))
+bt_libre = Button(frame_entrada, text="Tema Libre: jugar 🏖️", command=lambda: mostrar_info("Tema Libre", "jugar mi juego favorito","img/jugar1.png"))
 bt_libre.config(bg=COLOR_BOTON_BG, fg=COLOR_BOTON_FG, font=("Helvetica", 10))
 bt_libre.place(x=250, y=320, width=200, height=30)
 
@@ -153,7 +153,7 @@ def salir():
     messagebox.showinfo("Salir", "La app se va a cerrar")
     ventana_principal.destroy()
 
-bt_salir = Button(frame_entrada, text="Salir", command=salir)
+bt_salir = Button(frame_entrada, text="Salir ⛔", command=salir)
 bt_salir.config(bg=COLOR_SALIR_BG, fg=COLOR_SALIR_FG, font=("Helvetica", 10, "bold"))
 bt_salir.place(x=190, y=380, width=100, height=35)
 
